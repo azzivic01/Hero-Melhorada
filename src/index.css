@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0a0a0b;
+    color: #ececeb;
+  }
+}
+
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.font-editorial-sans {
+  font-family: var(--font-sans);
+}
+
+.font-editorial-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom focus ring styling for accessible deliberate focus states */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #0a0a0b, 0 0 0 4px rgba(245, 230, 200, 0.7);
+}
+
+/* Tabular numbers for numbers and telemetry */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle architectural grain */
+.film-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}

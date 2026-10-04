@@ -1,0 +1,6 @@
+{
+  "name": "Monólito Editorial",
+  "description": "Composição editorial cinematográfica com coreografia precisa de entrada, tipografia calibrada e direção visual austera.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
